@@ -65,7 +65,7 @@ body .point ol.list {
   list-style-type: decimal;
 }
 body.theme h1 {
-  color: #F9DA0C;
+  color: #d87f47;
   font-size: 2em;
   font-weight: 300;
 }
@@ -75,7 +75,7 @@ body.theme h1.hdr {
   margin-top: 60px;
 }
 body.theme h2 {
-  color: #7A1501;
+  color: #d87f47;
   font-size: 1.8em;
   font-weight: 400;
 }
@@ -133,7 +133,7 @@ body.links .link-list ul li a {
   margin-top: 5px;
 }
 body.links .link-list ul li a:hover {
-  color: #ff0084;
+  color: #d87f47;
 }
 body pre code.smallText {
   font-size: .75em;
@@ -146,38 +146,41 @@ body pre code.smallText {
 /*=========NAVBAR============*/
 
 .navbar-default {
-  background-color: #7A1501; /*Geekwise Red*/
-  color: #F9DA0C; /*Geekwise Yellow*/
+  background-color: rgba(53, 61, 61, .9); /*Geekwise Red*/
+  color: #fff; /*Geekwise Yellow*/
   padding: 5px 0;
   border: none;
   border-radius: 0;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
-  color: #F9DA0C;
+  color: #fff;
+  transition: all .3s;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #fff;
+  color: #d87f47;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #d87f47;
 }
 
 .navbar-nav>li>.dropdown-menu {
   margin-top: 5px;
-  background-color: #7a1501;
-  border-color: #f9da0c;
+  background-color: rgba(53, 61, 61, .9);
+  border: none;
 }
 
 .dropdown-menu .divider {
-  background-color: #f9da0c;
+  background-color: #fff;
 }
 
 .dropdown-menu>li>a {
-  color: #f9da0c;
+  color: #fff;
+  transition: all .3s;
 }
 
 .dropdown-menu>li {
@@ -185,8 +188,8 @@ body pre code.smallText {
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-  background-color: #f9da0c;
-  color: #7a1501;
+  background-color: rgba(53, 61, 61, .9);
+  color: #d87f47;
 }
 /*===========MAIN CONTENT=============*/
 
