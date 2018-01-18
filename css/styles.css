@@ -146,8 +146,8 @@ body pre code.smallText {
 /*=========NAVBAR============*/
 
 .navbar-default {
-  background-color: rgba(53, 61, 61, .9); /*Geekwise Red*/
-  color: #fff; /*Geekwise Yellow*/
+  background-color: rgba(53, 61, 61, .95);
+  color: #fff;
   padding: 5px 0;
   border: none;
   border-radius: 0;
@@ -170,7 +170,7 @@ body pre code.smallText {
 
 .navbar-nav>li>.dropdown-menu {
   margin-top: 5px;
-  background-color: rgba(53, 61, 61, .9);
+  background-color: rgba(53, 61, 61, .95);
   border: none;
 }
 
@@ -188,7 +188,7 @@ body pre code.smallText {
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-  background-color: rgba(53, 61, 61, .9);
+  background-color: rgba(53, 61, 61, .95);
   color: #d87f47;
 }
 /*===========MAIN CONTENT=============*/
