@@ -65,7 +65,7 @@ body .point ol.list {
   list-style-type: decimal;
 }
 body.theme h1 {
-  color: #d87f47;
+  color: #FF6300;
   font-size: 2em;
   font-weight: 300;
 }
@@ -75,7 +75,7 @@ body.theme h1.hdr {
   margin-top: 60px;
 }
 body.theme h2 {
-  color: #d87f47;
+  color: #FF6300;
   font-size: 1.8em;
   font-weight: 400;
 }
@@ -133,7 +133,7 @@ body.links .link-list ul li a {
   margin-top: 5px;
 }
 body.links .link-list ul li a:hover {
-  color: #d87f47;
+  color: #FF6300;
 }
 body pre code.smallText {
   font-size: .75em;
@@ -146,12 +146,12 @@ body pre code.smallText {
 /*=========NAVBAR============*/
 
 .navbar-default {
-  background-color: rgba(53, 61, 61, .95);
+  background-color: rgba(170, 170, 170, .95);
   color: #fff;
   padding: 5px 0;
   border: none;
   border-radius: 0;
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 0 5px rgba(0,0,0,.175);
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
@@ -160,17 +160,17 @@ body pre code.smallText {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #d87f47;
+  color: #FF6300;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   background-color: transparent;
-  color: #d87f47;
+  color: #FF6300;
 }
 
 .navbar-nav>li>.dropdown-menu {
   margin-top: 5px;
-  background-color: rgba(53, 61, 61, .95);
+  background-color: rgba(170, 170, 170, .95);
   border: none;
 }
 
@@ -188,8 +188,8 @@ body pre code.smallText {
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-  background-color: rgba(53, 61, 61, .95);
-  color: #d87f47;
+  background-color: rgba(170, 170, 170, .95);
+  color: #FF6300;
 }
 /*===========MAIN CONTENT=============*/
 
