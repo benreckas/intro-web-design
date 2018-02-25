@@ -210,3 +210,11 @@ body pre code.smallText {
   width: 30%;
   margin-bottom: 30px;
 }
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      color: #fff;
+  }
+}
