@@ -205,3 +205,8 @@ body pre code.smallText {
 .blocks {
   width: 600px;
 }
+
+.stack-img {
+  width: 30%;
+  margin-bottom: 30px;
+}
